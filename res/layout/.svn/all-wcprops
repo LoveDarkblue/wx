@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/wx_/!svn/ver/3/trunk/wx_one/res/layout
+END
+activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/wx_/!svn/ver/3/trunk/wx_one/res/layout/activity_main.xml
+END
+titie_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/wx_/!svn/ver/3/trunk/wx_one/res/layout/titie_bar.xml
+END
+xlistview_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/wx_/!svn/ver/3/trunk/wx_one/res/layout/xlistview_header.xml
+END
+frag_mine.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/wx_/!svn/ver/3/trunk/wx_one/res/layout/frag_mine.xml
+END
+item_frag_finddoctor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/wx_/!svn/ver/3/trunk/wx_one/res/layout/item_frag_finddoctor.xml
+END
+item_frag_vaccinetable_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/wx_/!svn/ver/3/trunk/wx_one/res/layout/item_frag_vaccinetable_list.xml
+END
+frag_finddoctor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wx_/!svn/ver/3/trunk/wx_one/res/layout/frag_finddoctor.xml
+END
+xlistview_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/wx_/!svn/ver/3/trunk/wx_one/res/layout/xlistview_footer.xml
+END
+frag_knowledge.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/wx_/!svn/ver/3/trunk/wx_one/res/layout/frag_knowledge.xml
+END
+frag_vaccinetable.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/wx_/!svn/ver/3/trunk/wx_one/res/layout/frag_vaccinetable.xml
+END

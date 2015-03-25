@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_top_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/home_img_header"
+                android:layout_width="@dimen/vaccine_table_topimg_size"
+                android:layout_height="@dimen/vaccine_table_topimg_size"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/home_img_bg"
+                android:padding="10dp"
+                android:src="@drawable/home_img" />
+
+            <ImageView
+                android:id="@+id/main_arror"
+                android:layout_width="20dp"
+                android:layout_height="@dimen/vaccine_table_topimg_size"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@id/home_img_header"
+                android:scaleType="fitCenter"
+                android:src="@drawable/top_right_arrow" />
+        </RelativeLayout>
+        <!-- 年龄身高体重 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal" >
+
+            <!-- 年龄 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yimiaobiao_text6"
+                    android:textColor="@color/mWhite"
+                    android:textSize="@dimen/vaccine_table_toptext_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2个月"
+                    android:textColor="@color/mWhite"
+                    android:textSize="@dimen/vaccine_table_toptext_size" />
+            </LinearLayout>
+            <!-- 身高 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yimiaobiao_text7"
+                    android:textColor="@color/mWhite"
+                    android:textSize="@dimen/vaccine_table_toptext_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="40cm"
+                    android:textColor="@color/mWhite"
+                    android:textSize="@dimen/vaccine_table_toptext_size" />
+            </LinearLayout>
+            <!-- 体重 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yimiaobiao_text8"
+                    android:textColor="@color/mWhite"
+                    android:textSize="@dimen/vaccine_table_toptext_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8kg"
+                    android:textColor="@color/mWhite"
+                    android:textSize="@dimen/vaccine_table_toptext_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_djs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/home_countdown" />
+
+                <TextView
+                    android:id="@+id/tv_daynum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_toRightOf="@id/iv_djs"
+                    android:gravity="bottom"
+                    android:text="12"
+                    android:textColor="@color/mWhite"
+                    android:textSize="75sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tv_daynum"
+                    android:layout_alignBottom="@id/tv_daynum"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/tv_daynum"
+                    android:text="@string/yimiaobiao_text1"
+                    android:textColor="@color/mWhite"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+            <!-- 接种日 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/yimiaobiao_text2"
+                    android:textColor="@color/mWhite"
+                    android:textSize="@dimen/vaccine_table_toptext_size" />
+
+                <TextView
+                    android:id="@+id/frag_vaccinetable_tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2015-3-20周五"
+                    android:textColor="@color/mWhite"
+                    android:textSize="@dimen/vaccine_table_toptext_size" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yimiaobiao_text4"
+                        android:textColor="@color/mWhite"
+                        android:textSize="@dimen/vaccine_table_toptext_size" />
+
+                    <TextView
+                        android:id="@+id/frag_vaccinetable_tv_addr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yimiaobiao_text3"
+                        android:textColor="@color/mgray"
+                        android:textSize="@dimen/vaccine_table_toptext_size" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/frag_vaccine_pb"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="12dp"
+        android:progressDrawable="@drawable/progress_horizontal" />
+
+    <ListView
+        android:id="@+id/frag_vaccinetable_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+
+    <color name="horizontal_progress_select">#A5D32A</color>
+    <color name="horizontal_progress_unselect">#56BE97</color>
+    <!-- 标题栏文字 -->
+    <color name="title_bar_textcolor">#ffffff</color>
+    <color name="mWhite">#ffffff</color>
+    <color name="mc1">#C1C1C1</color>
+    <!-- 疫苗表-未设置接种点 -->
+    <color name="mgray">#D9DBDA</color>
+    <!-- 虚线 -->
+    <color name="xline_color">#00A8FF</color>
+    <!-- 疫苗表listview下方文字 -->
+    <color name="shm_textcolor">#A4A2A3</color>
+
+    <!-- 疫苗表条目内容 -->
+    <color name="content_textcolor">#B7B7B7</color>
+    <!-- 疫苗表listview下方，现在设置 -->
+    <color name="mGreen">#9DD30B</color>
+    <!-- 标题栏背景 -->
+    <color name="title_bar_color">#CC82B7</color>
+    <color name="mBlack">#000000</color>
+    <!-- 疫苗表-位宝宝选择 -->
+    <color name="mbbselect">#9E83BB</color>
+    <!-- 我的-文字 -->
+    <color name="mine_item_wordcolor">#747474</color>
+    <!-- 我的item的边框 -->
+    <color name="mine_item_bgcorners">#BFBFBF</color>
+
+</resources>

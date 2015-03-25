@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">微象</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- title_bar -->
+    <string name="title_bar_text1">标题</string>
+    <string name="title_bar_text2">说明</string>
+    
+    <!-- 疫苗表 -->
+    <string name="yimiaobiao_text1">天</string>
+    <string name="yimiaobiao_text2">接种日</string>
+    <string name="yimiaobiao_text3">未设置接种点</string>
+    <string name="yimiaobiao_text4">接种点：</string>
+    <string name="yimiaobiao_text5">位宝宝选择</string>
+    <string name="yimiaobiao_text6">年龄：</string>
+    <string name="yimiaobiao_text7">身高：</string>
+    <string name="yimiaobiao_text8">体重：</string>
+
+    <!-- 找医生 -->
+    <string name="zhaoyisheng_text1">我的医生</string>
+    
+    <!-- 我的 -->
+    <string name="mine_text1">我的信息</string>
+    <string name="mine_text2">宝宝信息</string>
+    <string name="mine_text3">提醒设置</string>
+    <string name="mine_text4">密码修改</string>
+    <string name="mine_text5">检查更新（1.1.0）</string>
+    <string name="mine_text6">给我评分</string>
+    <string name="mine_text7">用户反馈</string>
+    <string name="mine_text8">关于</string>
+    <string name="mine_text9">退出登录</string>
+    
+    <!-- 下拉刷新和上滑加载更多 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载</string>
+    <string name="xlistview_header_last_time">最后刷新时间：</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="pull_down_refresh">下拉刷新</string>
+    <string name="last_refresh_time">最后刷新时间: 1990/09/09 10:10:10</string>
+
+</resources>

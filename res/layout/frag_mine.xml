@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- title -->
+
+    <include layout="@layout/titie_bar" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <!-- item1 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/mine_item_bg"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/mine_item_word"
+                    android:text="@string/mine_text1" />
+
+                <View style="@style/line_1" />
+
+                <TextView
+                    style="@style/mine_item_word"
+                    android:text="@string/mine_text2" />
+            </LinearLayout>
+            <!-- item2 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/mine_item_bg"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/mine_item_word"
+                    android:text="@string/mine_text3" />
+
+                <View style="@style/line_1" />
+
+                <TextView
+                    style="@style/mine_item_word"
+                    android:text="@string/mine_text4" />
+            </LinearLayout>
+            <!-- item3 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/mine_item_bg"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/mine_item_word"
+                    android:text="@string/mine_text5" />
+
+                <View style="@style/line_1" />
+
+                <TextView
+                    style="@style/mine_item_word"
+                    android:text="@string/mine_text6" />
+
+                <View style="@style/line_1" />
+
+                <TextView
+                    style="@style/mine_item_word"
+                    android:text="@string/mine_text7" />
+
+                <View style="@style/line_1" />
+
+                <TextView
+                    style="@style/mine_item_word"
+                    android:text="@string/mine_text8" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/mine_exit"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/mine_text9"
+                android:textColor="@color/mWhite"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+10
+
+dir
+3
+https://aisl-/svn/wx_/trunk/wx_one/res
+https://aisl-/svn/wx_
+
+
+
+2015-03-24T11:26:21.413758Z
+3
+lcp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+32ccc2a8-1d97-0443-8b28-fbff9d96f90e
+
+values-sw720dp-land
+dir
+
+drawable
+dir
+
+drawable-xxhdpi
+dir
+
+anim
+dir
+
+drawable-nodpi
+dir
+
+drawable-xhdpi
+dir
+
+values
+dir
+
+values-sw600dp
+dir
+
+drawable-hdpi
+dir
+
+menu
+dir
+
+values-v11
+dir
+
+drawable-ldpi
+dir
+
+values-v14
+dir
+
+drawable-mdpi
+dir
+
+layout
+dir
+

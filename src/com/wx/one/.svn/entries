@@ -1,0 +1,80 @@
+10
+
+dir
+3
+https://aisl-/svn/wx_/trunk/wx_one/src/com/wx/one
+https://aisl-/svn/wx_
+
+
+
+2015-03-24T11:26:21.413758Z
+3
+lcp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+32ccc2a8-1d97-0443-8b28-fbff9d96f90e
+
+adapter
+dir
+
+MainActivity.java
+file
+
+
+
+
+2015-03-21T06:00:03.246989Z
+9655319f87059d98ea5fc9844668070c
+2015-03-24T11:26:21.413758Z
+3
+lcp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4425
+
+fragment
+dir
+
+widget
+dir
+
+bean
+dir
+
+base
+dir
+
+util
+dir
+
