@@ -2,10 +2,42 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="frag3"/>
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/frag_knowledge_radio"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:layout_gravity="bottom"
+        android:background="@color/title_bar_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_vaccine"
+            style="@style/main_tab_bottom"
+            android:checked="true"
+            android:gravity="center_horizontal|bottom"
+            android:text="@string/zhishiku_text1"
+            android:textColor="@drawable/know_text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_muying"
+            style="@style/main_tab_bottom"
+            android:gravity="center_horizontal|bottom"
+            android:text="@string/zhishiku_text2"
+            android:textColor="@drawable/know_text_color" />
+    </RadioGroup>
+
+    <!-- <com.viewpagerindicator.TabPageIndicator -->
+    <!-- android:id="@+id/frag_knowledge_Indicator" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="@dimen/title_bar_height" -->
+    <!-- android:background="@android:color/transparent" /> -->
+
+    <com.wx.one.widget.BindSlidingViewPager
+        android:id="@+id/frag_knowledge_vp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
 
 </LinearLayout>

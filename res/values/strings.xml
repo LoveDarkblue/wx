@@ -22,6 +22,10 @@
     <!-- 找医生 -->
     <string name="zhaoyisheng_text1">我的医生</string>
     
+    <!-- 知识库 -->
+    <string name="zhishiku_text1">疫苗</string>
+    <string name="zhishiku_text2">母婴</string>
+    
     <!-- 我的 -->
     <string name="mine_text1">我的信息</string>
     <string name="mine_text2">宝宝信息</string>
@@ -32,6 +36,9 @@
     <string name="mine_text7">用户反馈</string>
     <string name="mine_text8">关于</string>
     <string name="mine_text9">退出登录</string>
+    <string name="mine_text10">更多</string>
+    
+    <string name="pic">图片</string>
     
     <!-- 下拉刷新和上滑加载更多 -->
     <string name="xlistview_header_hint_normal">下拉刷新</string>

@@ -18,9 +18,14 @@ import com.wx.one.R;
 import com.wx.one.adapter.FindDoctorAdapter;
 import com.wx.one.base.BaseFragment;
 import com.wx.one.util.CommonUtils;
-import com.wx.one.widget.XListView;
-import com.wx.one.widget.XListView.IXListViewListener;
+import com.wx.one.widget.xlistview.XListView;
+import com.wx.one.widget.xlistview.XListView.IXListViewListener;
 
+/**
+ * @author lichangpeng
+ * @version 2015-3-25
+ * 找医生
+ */
 @SuppressLint("HandlerLeak")
 public class FindDoctorFragment extends BaseFragment implements IXListViewListener, OnItemClickListener {
 	private String TAG = "FindDoctorFragment";

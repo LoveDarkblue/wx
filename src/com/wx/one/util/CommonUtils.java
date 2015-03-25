@@ -1,6 +1,7 @@
 package com.wx.one.util;
 
 
+import android.view.View;
 import android.widget.Toast;
 
 import com.wx.one.base.MyApplication;
@@ -31,5 +32,16 @@ public class CommonUtils {
      */
     public static void showT(String msg) {
         Toast.makeText(MyApplication.getContext(), msg, Toast.LENGTH_SHORT).show();
+    }
+    
+    @SuppressWarnings("unchecked")
+    public static final <E extends View> E getView(View parent, int id) {
+        try {
+            return (E) parent.findViewById(id);
+        } catch (ClassCastException ex) {
+            Logger.e("Could not cast View to concrete class \n"
+                    + ex.getMessage());
+            throw ex;
+        }
     }
 }

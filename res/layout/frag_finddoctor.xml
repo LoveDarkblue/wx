@@ -6,7 +6,7 @@
     <include 
         layout="@layout/titie_bar"
         />
-	<com.wx.one.widget.XListView
+	<com.wx.one.widget.xlistview.XListView
 	    android:id="@+id/frag_find_xlist"
 	    android:layout_width="fill_parent"
 	    android:layout_height="fill_parent"
