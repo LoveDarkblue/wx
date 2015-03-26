@@ -26,5 +26,7 @@
     <color name="mine_item_wordcolor">#747474</color>
     <!-- 我的item的边框 -->
     <color name="mine_item_bgcorners">#BFBFBF</color>
+    <!-- 知识库item内容 -->
+    <color name="knowledge_item_content">#898989</color>
 
 </resources>

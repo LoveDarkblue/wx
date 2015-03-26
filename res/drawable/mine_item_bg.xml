@@ -3,9 +3,13 @@
     android:shape="rectangle" >
 
     <corners android:radius="8dp" />
-	
-    <stroke android:color="@color/mine_item_bgcorners"
+
+    <gradient
+        android:endColor="@color/mWhite"
+        android:startColor="@color/mWhite" />
+
+    <stroke
         android:width="0.1dp"
-        />
+        android:color="@color/mine_item_bgcorners" />
 
 </shape>

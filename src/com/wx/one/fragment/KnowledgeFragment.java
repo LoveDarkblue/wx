@@ -2,21 +2,23 @@ package com.wx.one.fragment;
 
 import java.util.ArrayList;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RadioGroup;
 
-import com.viewpagerindicator.TabPageIndicator;
 import com.wx.one.R;
+import com.wx.one.activity.SearchActivity;
 import com.wx.one.base.BaseFragment;
-import com.wx.one.bean.DataModel;
 import com.wx.one.fragment.pager.KnowledgeBasePager;
 import com.wx.one.fragment.pager.MuyingPager;
 import com.wx.one.fragment.pager.VaccinePager;
+import com.wx.one.util.Logger;
 import com.wx.one.widget.BindSlidingViewPager;
 
 /**
@@ -32,6 +34,7 @@ public class KnowledgeFragment extends BaseFragment {
 	private ArrayList<KnowledgeBasePager> mKnowledgePagerList;
 	private RadioGroup mRadioGroup;
 	private KnowLedgePager mKnowLedgePager;
+	private ImageView iv_search;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -51,9 +54,16 @@ public class KnowledgeFragment extends BaseFragment {
 	}
 
 	@Override
+	public void onActivityResult(int requestCode, int resultCode, Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+		Logger.d("requestCode:"+requestCode+";\nresultCode:"+resultCode+";\ndata:"+data.getStringExtra("name"));
+	}
+	
+	@Override
 	protected void initView() {
 		mBindSlidingViewPager = getView(view, R.id.frag_knowledge_vp);
 		mRadioGroup = getView(view, R.id.frag_knowledge_radio);
+		iv_search = getView(view, R.id.frag_knowledge_iv_search);
 		mRadioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
 
 			@Override
@@ -68,6 +78,13 @@ public class KnowledgeFragment extends BaseFragment {
 					break;
 				}
 				mBindSlidingViewPager.setCurrentItem(index);
+			}
+		});
+		iv_search.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				startActivityForResult(new Intent(mContext, SearchActivity.class),0);
 			}
 		});
 	}

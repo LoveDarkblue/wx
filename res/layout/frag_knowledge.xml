@@ -27,6 +27,16 @@
             android:gravity="center_horizontal|bottom"
             android:text="@string/zhishiku_text2"
             android:textColor="@drawable/know_text_color" />
+
+        <ImageView
+            android:id="@+id/frag_knowledge_iv_search"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home2_fangdajing" />
     </RadioGroup>
 
     <!-- <com.viewpagerindicator.TabPageIndicator -->

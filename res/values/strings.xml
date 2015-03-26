@@ -25,6 +25,8 @@
     <!-- 知识库 -->
     <string name="zhishiku_text1">疫苗</string>
     <string name="zhishiku_text2">母婴</string>
+    <string name="zhishiku_text3">新生儿安全知识手册</string>
+    <string name="cancel">取消</string>
     
     <!-- 我的 -->
     <string name="mine_text1">我的信息</string>
@@ -38,7 +40,9 @@
     <string name="mine_text9">退出登录</string>
     <string name="mine_text10">更多</string>
     
-    <string name="pic">图片</string>
+    <string name="imag_des">图片</string>
+    <string name="yimiaoxinxi_text1">接种时间</string>
+    <string name="yimiaoxinxi_text2">接种地点</string>
     
     <!-- 下拉刷新和上滑加载更多 -->
     <string name="xlistview_header_hint_normal">下拉刷新</string>

@@ -7,7 +7,7 @@ import android.util.Log;
  * Log工具类
  */
 public class Logger {
-    private static final String LOG_TAG = "SMS";
+    private static final String LOG_TAG = "WX";
     /**
      * 测试时开启
      */

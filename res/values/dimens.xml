@@ -16,4 +16,11 @@
     <dimen name="find_doctor_item_headeriv">55dp</dimen>
     <dimen name="find_doctor_item_text">14sp</dimen>
 
+    <!-- knowledge -->
+    <dimen name="zhishiku_item_img">65dp</dimen>
+    <dimen name="zhishiku_item_name">18sp</dimen>
+    <dimen name="zhishiku_item_content">14sp</dimen>
+    
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
 </resources>

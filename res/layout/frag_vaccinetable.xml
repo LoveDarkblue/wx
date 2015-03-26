@@ -22,7 +22,7 @@
                 android:layout_marginTop="40dp"
                 android:background="@drawable/home_img_bg"
                 android:padding="10dp"
-                android:contentDescription="@string/pic"
+                android:contentDescription="@string/imag_des"
                 android:src="@drawable/home_img" />
 
             <ImageView
@@ -32,7 +32,7 @@
                 android:layout_marginLeft="18dp"
                 android:layout_marginTop="40dp"
                 android:layout_toRightOf="@id/home_img_header"
-                android:contentDescription="@string/pic"
+                android:contentDescription="@string/imag_des"
                 android:scaleType="fitCenter"
                 android:src="@drawable/top_right_arrow" />
         </RelativeLayout>
