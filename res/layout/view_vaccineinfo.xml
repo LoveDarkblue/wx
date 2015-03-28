@@ -134,8 +134,9 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="2dp"
             android:layout_toLeftOf="@id/vaccine_info_iv_arrow1"
-            android:src="@drawable/tianjia_del"
-            />
+            android:src="@drawable/tianjia_del" />
     </RelativeLayout>
+
+    <View style="@style/line_1" />
 
 </LinearLayout>
